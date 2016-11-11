@@ -19,7 +19,8 @@
   "dependencies": {
     "compression": "^1.6.1",
     "cors": "^2.7.1",
-    "express": "^4.13.4"
+    "express": "^4.13.4",
+    "simple-line-icons": "^2.3.2"
   },
   "devDependencies": {
     "autoprefixer": "^6.3.3",
@@ -41,6 +42,8 @@
     "rimraf": "^2.5.2",
     "run-sequence": "^1.1.5",
     "supertest": "^1.2.0",
-    "webpack": "^1.12.14"
-  }
+    "webpack": "^1.12.14",
+    "font-awesome": "^4.6.3"
+  },
+  "postinstall" : "npm run build"
 }
