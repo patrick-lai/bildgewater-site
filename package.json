@@ -12,7 +12,7 @@
     "dev": "npm run clean && (bundle exec jekyll build --drafts --verbose --watch --incremental & NODE_ENV=development gulp --watch & browser-sync start --server=public --files=public/**/*.{html,js,css,jpg,jpeg,gif,png,svg,ogv,mp4} --no-open --no-notify --logLevel=info --port=${PORT:-3000})",
     "prod": "set NODE_ENV=production && npm run build && npm start",
     "postinstall" : "npm run build",
-    "publish" : "npm run build && git subtree push --prefix public origin gh-pages"
+    "publish" : "git subtree push --prefix public origin gh-pages"
   },
   "engines": {
     "node": "5.6.0",
