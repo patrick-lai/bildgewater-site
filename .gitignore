@@ -4,7 +4,7 @@ include
 bin
 /lib
 /vendor
-public
+
 npm-debug*
 .DS_STORE
 .jekyll-metadata
