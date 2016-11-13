@@ -3,7 +3,6 @@ ga_id:
 source: app
 destination: public
 url: http://bildgewater.com.au
-baseurl: /bildgewater-site
 
 compress_html:
   clippings: all

@@ -3,7 +3,7 @@ title: Bildgewater Human Resources
 email:
 description: Bildgewater Human Resources. Get Reffered a Job. Recruitment.
 
-baseurl: "/bildgewater-site" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
+baseurl: "" # the subpath of your site, e.g. /blog/ (If you use organization leave empty)
 url: "http://bildgewater.com.au" # the base hostname & protocol for your site
 
 #Google Ad Words Data from scripts code (using Google responsive options) and ad client
