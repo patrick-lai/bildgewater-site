@@ -1,7 +1,7 @@
 ga_id:
 
 source: app
-destination: public
+destination: docs
 url: http://bildgewater.com.au
 
 compress_html:
