@@ -1,8 +1,8 @@
-ga_id: UA-XXXXXXXX-1
+ga_id:
 
 source: app
 destination: public
-url: http://example.com
+url: http://bildgewater.com.au
 
 compress_html:
   clippings: all
