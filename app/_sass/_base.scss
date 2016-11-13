@@ -1,3 +1,18 @@
+
+// custom
+.interactive{
+  cursor: pointer;
+
+  &.dim-background{
+    transition: all 1s ease;
+    &:hover{
+      background: darken($theme-primary, 15%);
+    }
+  }
+}
+
+
+
 .heading-font {
   font-family: 'Catamaran', 'Helvetica', 'Arial', 'sans-serif';
   font-weight: 200;
